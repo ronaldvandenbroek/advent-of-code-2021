@@ -1,8 +1,10 @@
+# Import Data
 depths = []
 with open('../input/day_1.txt') as f:
     lines = f.read().splitlines()
     depths = [int(line) for line in lines]
 
+# Process Data
 countIncreasing = 0
 depthQueue = []
 previousDepthSum = None
